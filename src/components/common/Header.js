@@ -6,7 +6,6 @@ import { Text, View } from 'react-native';
 // Make a component
 const Header = (props) => {
   const { textStyle, viewStyle } = styles;
-  console.log('Is my debugger working');
   return (
     <View style={viewStyle}>
       <Text style={textStyle}>{props.headerText}</Text>
